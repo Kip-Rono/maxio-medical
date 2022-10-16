@@ -25,13 +25,9 @@
   
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-  
-    <!-- =======================================================
-    * Template Name: FlexStart - v1.9.0
-    * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
-    * Author: BootstrapMade.com
-    * License: https://bootstrapmade.com/license/
-    ======================================================== -->
+
+      <!--lazy loading  js-->
+      <script src="assets/js/lazysizes.min.js" async=""></script>
   </head>
 
   <body>
@@ -40,7 +36,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assets/img/footer-bg.png" alt="">
+        <img data-src="assets/img/footer-bg.png" class="lazyload" alt="">
         <span>Maxio Medical</span>
       </a>
 
@@ -66,10 +62,8 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center">
             <h1 data-aos="fade-up">Maxio Medical Supplies Ltd</h1>
             <h2 data-aos="fade-up" data-aos-delay="400">
-                Maxio Medical Limited was established to serve and cater for clients in Kenya and East Africa at large.
-                Our expert team is made up of specialist who specialize in all areas of cardiac care,
-                including peripheral artery disease, vein therapy and cardiology.
-                We have built a reputation as the premier cardiology equipment supplier group in the area.
+                Maxio Medical was established to serve and cater for clients in Kenya and East Africa at large.
+               <br>
                 We understand that the health and welfare of everyone is critical and serve hospitals, you and your client as if you
                 were our own.
             </h2>
@@ -91,7 +85,7 @@
             data-aos="zoom-out"
             data-aos-delay="200"
           >
-            <img src="assets/img/footer-bg.png" class="" alt="" />
+            <img data-src="assets/img/footer-bg.png" class="lazyload" alt="" />
           </div>
         </div>
       </div>
@@ -109,7 +103,7 @@
             <div class="content">
               <h3>ABOUT MAXIO MEDICAL LIMITED</h3>
                 <p>
-                    For more than 10 years, Maxio Medical Limited has been helping clients achieve quicker
+                    Maxio Medical Limited has been helping clients achieve quicker
                     patient recoveries while, at the same time, making them feel special.
                     Our skilled specialists and staff team are each well-trained in their specialties to provide
                     you with the finest orthopedic medical care equipment. We also offer unsurpassed convenience.
@@ -130,7 +124,7 @@
             class="col-lg-6 d-flex align-items-center"
             data-aos="zoom-out"
             data-aos-delay="200">
-            <img src="assets/img/index/orthopedic-1.png" class="img-fluid" alt="" />
+            <img data-src="assets/img/index/orthopedic-1.png" class="lazload img-fluid" alt="" />
           </div>
         </div>
       </div>
@@ -145,7 +139,7 @@
             class="col-lg-6 d-flex align-items-center"
             data-aos="zoom-out"
             data-aos-delay="200">
-            <img src="assets/img/index/orthopedic-2.png" class="img-fluid" alt="" />
+            <img data-src="assets/img/index/orthopedic-2.png" class="lazyload img-fluid" alt="" />
           </div>
             <div
                     class="col-lg-6 d-flex flex-column justify-content-center"
@@ -223,11 +217,11 @@
               <div>
                 <span
                   data-purecounter-start="0"
-                  data-purecounter-end="9"
+                  data-purecounter-end="24"
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span>
-                <p>Average Work Hours 24Hrs</p>
+                <p>Average Work Hours</p>
               </div>
             </div>
           </div>
@@ -342,8 +336,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img
-                src="assets/img/portfolio/clerk.png"
-                class="img-fluid"
+                data-src="assets/img/portfolio/clerk.png"
+                class="lazload img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
@@ -361,8 +355,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img
-                src="assets/img/newscreecrypt.jpeg"
-                class="img-fluid"
+                data-src="assets/img/newscreecrypt.jpeg"
+                class="lazyload img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
@@ -383,8 +377,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img
-                src="assets/img/portfolio/foody.png"
-                class="img-fluid"
+                data-src="assets/img/portfolio/foody.png"
+                class="lazyload img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
@@ -408,8 +402,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img
-                src="assets/img/portfolio/insuarydash.png"
-                class="img-fluid"
+                data-src="assets/img/portfolio/insuarydash.png"
+                class="lazyload img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
@@ -437,8 +431,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img
-                src="assets/img/portfolio/onebike.png"
-                class="img-fluid"
+                data-src="assets/img/portfolio/onebike.png"
+                class="lazyload img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
@@ -460,8 +454,8 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
               <img
-                src="assets/img/portfolio/ecommerce.png"
-                class="img-fluid"
+                data-src="assets/img/portfolio/ecommerce.png"
+                class="lazyload img-fluid"
                 alt=""
               />
               <div class="portfolio-info">
@@ -490,7 +484,7 @@
     <!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+   <!-- <section id="testimonials" class="testimonials">
       <div class="container" data-aos="fade-up">
         <header class="section-header">
           <h2>Testimonials</h2>
@@ -516,8 +510,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img
-                    src="assets/img/userfemale.png"
-                    class="testimonial-img"
+                    data-src="assets/img/userfemale.png"
+                    class="lazyload testimonial-img"
                     alt=""
                   />
                   <h3>Dr. Barny Tembo</h3>
@@ -525,7 +519,7 @@
                 </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            &lt;!&ndash; End testimonial item &ndash;&gt;
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -540,8 +534,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img
-                    src="assets/img/usermale.png"
-                    class="testimonial-img"
+                    data-src="assets/img/usermale.png"
+                    class="lazyload testimonial-img"
                     alt=""
                   />
                   <h3>Joe Kamau</h3>
@@ -549,7 +543,7 @@
                 </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            &lt;!&ndash; End testimonial item &ndash;&gt;
 
             <div class="swiper-slide">
               <div class="testimonial-item">
@@ -564,8 +558,8 @@
                 </p>
                 <div class="profile mt-auto">
                   <img
-                    src="assets/img/userfemale.png"
-                    class="testimonial-img"
+                    data-src="assets/img/userfemale.png"
+                    class="lazyload testimonial-img"
                     alt=""
                   />
                   <h3>Nia Shaza</h3>
@@ -573,12 +567,12 @@
                 </div>
               </div>
             </div>
-            <!-- End testimonial item -->
+            &lt;!&ndash; End testimonial item &ndash;&gt;
           </div>
           <div class="swiper-pagination"></div>
         </div>
       </div>
-    </section>
+    </section>-->
     <!-- End Testimonials Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -611,13 +605,14 @@
               </div>
               <div class="col-lg-6">
                   <div class="touch_details">
-                      <header class="section-header">
-                          <h6>Say hello. Get Quote</h6>
-                          <h2>Get in touch, send me an e-mail or call me</h2>
-                      </header>
-                      <p>Remember we have the best deals in town!!</p>
-                      <a href="#"><h5>Call us now</h5></a>
-                      <a href="#"><h4>+254 722 426 132 </h4></a>
+<!--                      <header class="section-header">-->
+<!--                          &lt;!&ndash;<h6>Say hello. Get Quote</h6>-->
+<!--                          <h2>Get in touch, send me an e-mail or call me</h2>&ndash;&gt;-->
+<!--                      </header>-->
+                      <!--<p>Remember we have the best deals in town!!</p>-->
+                      <a href="#"><h5>Call: +254 770 220 365</h5></a>
+                      <a href="#"><h5>Email: maxiomedicalsupplies@gmail.com</h5></a>
+
                   </div>
               </div>
           </div>
@@ -631,16 +626,16 @@
     <div class="footer">
       <h2>Maxio Medical Supplies Limited</h2>
       <div class="footer-social">
-          <a href="#"
+          <a href="https://www.facebook.com/" target="_blank"
           ><i class="bi bi-facebook"></i
           ></a>
-          <a href="#"
+          <a href="www.linked.com" target="_blank"
           ><i class="bi bi-linkedin"></i
           ></a>
-        <a href="#"
+        <a href="www.twitter.com" target="_blank"
           ><i class="bi bi-twitter"></i
         ></a>
-        <a href="#"
+        <a href="www.instagram.com" target="_blank"
           ><i class="bi bi-instagram"></i
         ></a>
 
